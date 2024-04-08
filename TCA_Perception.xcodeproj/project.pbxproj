@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF12E4E2BC3E87900F6BB5E /* TCA_PerceptionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF12E4D2BC3E87900F6BB5E /* TCA_PerceptionApp.swift */; };
+		CCF12E502BC3E87900F6BB5E /* SwiftUIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF12E4F2BC3E87900F6BB5E /* SwiftUIViews.swift */; };
+		CCF12E522BC3E87A00F6BB5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF12E512BC3E87A00F6BB5E /* Assets.xcassets */; };
+		CCF12E552BC3E87A00F6BB5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF12E542BC3E87A00F6BB5E /* Preview Assets.xcassets */; };
+		CCF12E5E2BC3E9B600F6BB5E /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = CCF12E5D2BC3E9B600F6BB5E /* ComposableArchitecture */; };
+		CCF12E602BC3E9E700F6BB5E /* Reducers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF12E5F2BC3E9E700F6BB5E /* Reducers.swift */; };
+		CCF12E622BC4116400F6BB5E /* TCAViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF12E612BC4116400F6BB5E /* TCAViews.swift */; };
+		CCF12E642BC4118B00F6BB5E /* Color+random.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF12E632BC4118A00F6BB5E /* Color+random.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCF12E4A2BC3E87900F6BB5E /* TCA_Perception.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCA_Perception.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF12E4D2BC3E87900F6BB5E /* TCA_PerceptionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_PerceptionApp.swift; sourceTree = "<group>"; };
+		CCF12E4F2BC3E87900F6BB5E /* SwiftUIViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViews.swift; sourceTree = "<group>"; };
+		CCF12E512BC3E87A00F6BB5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF12E542BC3E87A00F6BB5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCF12E562BC3E87A00F6BB5E /* TCA_Perception.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TCA_Perception.entitlements; sourceTree = "<group>"; };
+		CCF12E5F2BC3E9E700F6BB5E /* Reducers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducers.swift; sourceTree = "<group>"; };
+		CCF12E612BC4116400F6BB5E /* TCAViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAViews.swift; sourceTree = "<group>"; };
+		CCF12E632BC4118A00F6BB5E /* Color+random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+random.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF12E472BC3E87900F6BB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF12E5E2BC3E9B600F6BB5E /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF12E412BC3E87900F6BB5E = {
+			isa = PBXGroup;
+			children = (
+				CCF12E4C2BC3E87900F6BB5E /* TCA_Perception */,
+				CCF12E4B2BC3E87900F6BB5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF12E4B2BC3E87900F6BB5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF12E4A2BC3E87900F6BB5E /* TCA_Perception.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF12E4C2BC3E87900F6BB5E /* TCA_Perception */ = {
+			isa = PBXGroup;
+			children = (
+				CCF12E4D2BC3E87900F6BB5E /* TCA_PerceptionApp.swift */,
+				CCF12E4F2BC3E87900F6BB5E /* SwiftUIViews.swift */,
+				CCF12E512BC3E87A00F6BB5E /* Assets.xcassets */,
+				CCF12E562BC3E87A00F6BB5E /* TCA_Perception.entitlements */,
+				CCF12E532BC3E87A00F6BB5E /* Preview Content */,
+				CCF12E5F2BC3E9E700F6BB5E /* Reducers.swift */,
+				CCF12E612BC4116400F6BB5E /* TCAViews.swift */,
+				CCF12E632BC4118A00F6BB5E /* Color+random.swift */,
+			);
+			path = TCA_Perception;
+			sourceTree = "<group>";
+		};
+		CCF12E532BC3E87A00F6BB5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCF12E542BC3E87A00F6BB5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF12E492BC3E87900F6BB5E /* TCA_Perception */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF12E592BC3E87A00F6BB5E /* Build configuration list for PBXNativeTarget "TCA_Perception" */;
+			buildPhases = (
+				CCF12E462BC3E87900F6BB5E /* Sources */,
+				CCF12E472BC3E87900F6BB5E /* Frameworks */,
+				CCF12E482BC3E87900F6BB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCA_Perception;
+			packageProductDependencies = (
+				CCF12E5D2BC3E9B600F6BB5E /* ComposableArchitecture */,
+			);
+			productName = TCA_Perception;
+			productReference = CCF12E4A2BC3E87900F6BB5E /* TCA_Perception.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF12E422BC3E87900F6BB5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CCF12E492BC3E87900F6BB5E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = CCF12E452BC3E87900F6BB5E /* Build configuration list for PBXProject "TCA_Perception" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF12E412BC3E87900F6BB5E;
+			packageReferences = (
+				CCF12E5C2BC3E9B600F6BB5E /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = CCF12E4B2BC3E87900F6BB5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF12E492BC3E87900F6BB5E /* TCA_Perception */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF12E482BC3E87900F6BB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF12E552BC3E87A00F6BB5E /* Preview Assets.xcassets in Resources */,
+				CCF12E522BC3E87A00F6BB5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF12E462BC3E87900F6BB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF12E502BC3E87900F6BB5E /* SwiftUIViews.swift in Sources */,
+				CCF12E642BC4118B00F6BB5E /* Color+random.swift in Sources */,
+				CCF12E4E2BC3E87900F6BB5E /* TCA_PerceptionApp.swift in Sources */,
+				CCF12E602BC3E9E700F6BB5E /* Reducers.swift in Sources */,
+				CCF12E622BC4116400F6BB5E /* TCAViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CCF12E572BC3E87A00F6BB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCF12E582BC3E87A00F6BB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CCF12E5A2BC3E87A00F6BB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TCA_Perception/TCA_Perception.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TCA_Perception/Preview Content\"";
+				DEVELOPMENT_TEAM = P4FA8T35TJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuslota.TCA-Perception";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CCF12E5B2BC3E87A00F6BB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TCA_Perception/TCA_Perception.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TCA_Perception/Preview Content\"";
+				DEVELOPMENT_TEAM = P4FA8T35TJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuslota.TCA-Perception";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF12E452BC3E87900F6BB5E /* Build configuration list for PBXProject "TCA_Perception" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF12E572BC3E87A00F6BB5E /* Debug */,
+				CCF12E582BC3E87A00F6BB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF12E592BC3E87A00F6BB5E /* Build configuration list for PBXNativeTarget "TCA_Perception" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF12E5A2BC3E87A00F6BB5E /* Debug */,
+				CCF12E5B2BC3E87A00F6BB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CCF12E5C2BC3E9B600F6BB5E /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = exactVersion;
+				version = 1.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CCF12E5D2BC3E9B600F6BB5E /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCF12E5C2BC3E9B600F6BB5E /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CCF12E422BC3E87900F6BB5E /* Project object */;
+}
