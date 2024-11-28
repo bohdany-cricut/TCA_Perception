@@ -1,3 +1,7 @@
+**Related discussion**:
+https://github.com/pointfreeco/swift-composable-architecture/discussions/2973
+
+**STR**:
 1. Open Project
 2. Uncomment either TCA or SwiftUI version of the view in the `TCA_PerceptionApp.swift`
 3. Run the App
